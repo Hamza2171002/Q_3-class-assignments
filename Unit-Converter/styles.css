@@ -1,0 +1,29 @@
+h1 {
+    color: #0e3d6c;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+div.stButton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.stButton button {
+    background-color: #0845a7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.stButton button:hover {
+    background-color: #00275a;
+    color: white;
+    cursor: pointer;
+}
